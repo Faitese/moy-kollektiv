@@ -1,0 +1,68 @@
+body {
+	font-size: 26px;
+	font-family: "Comfortaa";
+	background-color: #ffffff;
+	margin: 0;
+	padding: 0;
+}
+
+.heading {
+	font-size: 56px;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color:#000000;
+	transform: scale(1.0);
+	transition: 0.20s transform;
+}
+
+.cap {
+	display: grid;
+	grid-template-columns: 375px 375px;
+	grid-column-gap: 900px;
+	background-color: #ffffff;
+	height: 135px;
+}
+
+.cap > div.C2 {
+	display: grid;
+	grid-template-columns: 375px;
+	grid-column-gap: 50px;
+}
+
+.cap > div.C2 > a {
+	background-color: #7EB2E7;
+	margin-top: 15px;
+	display: grid;
+	grid-column-gap: 145px;
+	border: 4.5px solid #000000;
+	text-align: center;
+	height: 115px;
+	border-radius: 64px;
+	align-items: center;
+}
+
+.cap > a:nth-child(1) {
+	background-color: #7EB2E7;
+	margin-top: 10px;
+	display: grid;
+	grid-column-gap: 145px;
+	border: 4.5px solid #000000;
+	text-align: center;
+	height: 115px;
+	align-items: center;
+	border-radius: 64px;
+	width: 375px;
+	margin-left: 25px;
+}
+
+.cap > .C2 >a:nth-child(2) {
+	width: 40px;
+}
+
+a:hover {
+	transform: scale(1.1);
+	transition: 0.25s transform;
+}

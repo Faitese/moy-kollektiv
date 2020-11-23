@@ -1,0 +1,79 @@
+body {
+    background-image: url("img/4.jpg");
+}
+
+.info {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.15em;
+    width: 30em;
+    height: 8em;
+    border: black solid 7.5px;
+    border-radius: 65px;
+    text-align: center;
+    padding: 1%;
+    font-size: 22.5px;
+    font-family: 'Times New Roman';
+    opacity: 95%;
+}
+
+
+a {
+	text-decoration: none;
+	color:#000000;
+	transform: scale(1.0);
+	transition: 0.20s transform;
+}
+
+.cap {
+	display: grid;
+	grid-template-columns: 375px 375px;
+	grid-column-gap: 850px;
+    height: 135px;
+    margin-top: 25em;
+    font-size: 30px;
+
+}
+
+.cap > div.C2 {
+	display: grid;
+	grid-template-columns: 375px;
+	grid-column-gap: 50px;
+}
+
+.cap > div.C2 > a {
+	background-color: #7EB2E7;
+	margin-top: 15px;
+	display: grid;
+	grid-column-gap: 145px;
+	border: 4.5px solid #000000;
+	text-align: center;
+	height: 115px;
+	border-radius: 64px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.cap > a:nth-child(1) {
+	background-color: #7EB2E7;
+	margin-top: 10px;
+	display: grid;
+	grid-column-gap: 145px;
+	border: 4.5px solid #000000;
+	text-align: center;
+	height: 115px;
+	align-items: center;
+	border-radius: 64px;
+	width: 375px;
+	margin-left: 25px;
+}
+
+.cap > .C2 >a:nth-child(2) {
+	width: 40px;
+}
+
+a:hover {
+	transform: scale(1.1);
+	transition: 0.25s transform;
+}
